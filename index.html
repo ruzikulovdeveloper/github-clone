@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="div__left">
+                <div class="div__right__img">
+                    <a class="header__img" href="https://github.com">
+                        <svg height="43" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="42" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <label class="label__nav">
+                    <input type="text" placeholder="Search or jump to....">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
+                </label>
+                <a class="div__left__adress" href="https://github.com/issues">Issues</a>
+                <a class="div__left__adress" href="https://github.com/marketplace">Marketplace</a>
+                <a class="div__left__adress" href="https://github.com/pulls">Pull requests</a>
+                <a class="div__left__adress" href="https://github.com/explore">Explore</a>
+            </div>
+            <div class="div__right">
+                <div class="header__img">
+                    <a href="https://github.com">
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell">
+                            <path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path>
+                        </svg>
+                        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
+                            <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
+                        </svg>
+                        <img src="https://avatars.githubusercontent.com/u/99179457?s=40&v=4" alt="erorr_404!_301!" class="nav__right__img">
+                    <a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <!-- right -->
+        <aside class="aside__right__main">
+            <div class="main1">
+                <h2>Recent Repositories</h2>
+                <div class="header">
+                    <a href="https://github.com/new">
+                        <span id="header__text__repo">
+                            <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-repo">
+                                <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+                            </svg> New
+                        </span>
+                    </a>
+                </div>
+                <input class="aside__input__first" type="text" placeholder="Find a repository....">
+                <div class="body">
+                    <ul>
+                        <br>
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/a...
+                            </li>
+                        <a>
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/n...
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/t...
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/M...
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/b...
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/A...
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/b...
+                            </li>
+                        </a>
+
+                        <a href="#">
+                            <li>
+                                <img class="nav__right__img" src="https://avatars.githubusercontent.com/u/99179457?s=16&v=4" alt="">
+                                ruzikulovdeveloper/b...
+                            </li>
+                            <br>
+                        </a>
+                        <span id="birnima">Show more</span>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- left --><hr style="color: gray 2px solid;">
+            <br>
+            <div class="main2">
+                <h2>Recent activity</h2>
+                <br>
+                <p>
+                    When you take actions across GitHub, we’ll provide links to that activity here. Lorem ipsum dolor sit amet.
+                </p>
+                <br>
+            </div>
+        </aside>
+        <div class="main__right__div">
+            <div class="div__main__flex">
+                <div class="divmainflex">
+                    <p>All activity</p>
+                    <h2>
+                        Discover interesting projects and people to populate your personal news feed.
+                    </h2>
+                    <p>
+                        Your news feed helps you keep up with recent activity on repositories you watch or star and people you <a href="https://github.com/trending/developers">follow.</a>
+                    </p>
+                    <a href="https://github.com/explore">
+                        <button class="click">
+                            Explore GitHub
+                        </button>
+                    </a>
+                </div>
+                <a id="svg">
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-light-bulb color-fg-muted">
+                        <path fill-rule="evenodd" d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 01-1.484.211c-.04-.282-.163-.547-.37-.847a8.695 8.695 0 00-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.75.75 0 01-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75zM6 15.25a.75.75 0 01.75-.75h2.5a.75.75 0 010 1.5h-2.5a.75.75 0 01-.75-.75zM5.75 12a.75.75 0 000 1.5h4.5a.75.75 0 000-1.5h-4.5z"></path>
+                    </svg>
+                    ProTip! The feed shows you events from people you follow and repositories you watch or star. <br>
+                    <br>
+                    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-rss mr-1">
+                        <path fill-rule="evenodd" d="M2.002 2.725a.75.75 0 01.797-.699C8.79 2.42 13.58 7.21 13.974 13.201a.75.75 0 11-1.497.098 10.502 10.502 0 00-9.776-9.776.75.75 0 01-.7-.798zM2 13a1 1 0 112 0 1 1 0 01-2 0zm.84-5.95a.75.75 0 00-.179 1.489c2.509.3 4.5 2.291 4.8 4.8a.75.75 0 101.49-.178A7.003 7.003 0 002.838 7.05z"></path>
+                    </svg>
+                    Subscribe to your news feed
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div id="ul__li">
+                    <div id="git__icon">
+                        <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true" class="octicon octicon-mark-github d-block mr-2 float-left">
+                            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+                        </svg>
+                        © 2022 GitHub, Inc.
+                    </div>
+                    <div id="li">
+                        <ul>
+                            <li>Blog</li>
+                            <br>
+                            <li>About</li>
+                            <br>
+                            <li>Pricing</li><br>
+                        </ul>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="div__main__flex2">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
